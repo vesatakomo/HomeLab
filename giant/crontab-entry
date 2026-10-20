@@ -1,0 +1,2 @@
+#Crontab checks if Tdarr is encoding every 2 minutes
+*/2 * * * * /root/tdarr_vcpu.sh >> /root/tdarr_vcpu.log 2>&1
