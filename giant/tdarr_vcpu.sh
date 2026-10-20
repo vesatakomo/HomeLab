@@ -12,7 +12,7 @@ HIGH=12                       # vCPUs when transcoding
 IDLE_REQUIRED=3              # how many idle checks before reducing
 STATEFILE="/root/tdarr_vcpu.state"
 IDLEFILE="/root/tdarr_vcpu_idle_count"
-APPRISE_URL="http://192.168.1.5:18000/notify/apprise"
+APPRISE_URL="http://192.168.x.x:xxxx/notify/apprise"
 
 # Detect transcoding
 if /usr/bin/ssh -o Batchmode=yes dockerhost \
