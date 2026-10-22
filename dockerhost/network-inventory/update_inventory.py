@@ -60,7 +60,6 @@ def make_html_table(mappings):
         )
 
     return (
-        "<h2>Network Inventory</h2>\n"
         f"<p>Static DHCP mappings: {len(mappings)}</p>\n"
         "<table><thead><tr>"
         "<th>IP address</th><th>Hostname</th>"
